@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "fname": "kok",
+      "gender": "others",
+      "state": "MH",
+      "areasOfInterest": [
+        "CSS"
+      ],
+      "id": "0Og1oFsbJMw"
+    },
+    {
+      "fname": "Saranya",
+      "gender": "female",
+      "state": "KA",
+      "areasOfInterest": [
+        "JS",
+        "CSS"
+      ],
+      "id": "WjrvL7ldejs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
