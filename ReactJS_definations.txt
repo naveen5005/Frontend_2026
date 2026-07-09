@@ -1,0 +1,4 @@
+Render Props:
+-------------
+Render Props is a React pattern where a component doesn't decide what to render; 
+instead, it lets its parent decide by passing a function as a prop.
