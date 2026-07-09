@@ -1,4 +1,5 @@
 Render Props:
 -------------
-Render Props is a React pattern where a component doesn't decide what to render; 
-instead, it lets its parent decide by passing a function as a prop.
+A render prop is a function passed to a component as a prop. 
+The component manages the shared logic and calls that function to let the parent decide 
+what UI should be rendered using that logic.
