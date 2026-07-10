@@ -3,3 +3,12 @@ Render Props:
 A render prop is a function passed to a component as a prop. 
 The component manages the shared logic and calls that function to let the parent decide 
 what UI should be rendered using that logic.
+
+HOC:
+----
+1) A HOC is a function that accepts a component and returns a new component.
+2) The original component focuses only on rendering its UI.
+3) The HOC adds reusable behavior such as authentication, loading, logging, or permissions.
+4) This keeps your code DRY (Don't Repeat Yourself) and makes it easier to maintain.
+5) In modern React applications with function components, custom hooks are often preferred 
+   for sharing stateful logic, but HOCs remain common in existing codebases and some libraries.
