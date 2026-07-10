@@ -12,3 +12,11 @@ HOC:
 4) This keeps your code DRY (Don't Repeat Yourself) and makes it easier to maintain.
 5) In modern React applications with function components, custom hooks are often preferred 
    for sharing stateful logic, but HOCs remain common in existing codebases and some libraries.
+
+
+React Context API:
+------------------
+The React Context API is a way to share data between components without passing props manually through 
+every level.
+
+It solves the Prop Drilling problem.   
