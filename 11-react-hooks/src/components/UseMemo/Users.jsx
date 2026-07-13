@@ -243,7 +243,9 @@ const Users = () => {
         return users.filter((user) => user.name.toLowerCase().includes(search.toLowerCase()));
     }, [search]);
 
-    // const filteredUsers = users.filter((user) => user.name.toLowerCase().includes(search.toLowerCase()), [search])
+    // console.log("filtering....");
+    // const filteredUsers = users.filter((user) => user.name.toLowerCase().includes(search.toLowerCase()), [search]);
+    
     return (
         <div>
             <input
@@ -258,7 +260,7 @@ const Users = () => {
 
             <h3>Results: {filteredUsers.length}</h3>
 
-            {filteredUsers.slice(0, 10).map((user) => (
+            {filteredUsers.map((user) => (
                 <p key={user.id}>{user.name}</p>
             ))}
         </div>
